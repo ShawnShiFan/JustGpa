@@ -1,0 +1,185 @@
+[
+  {
+    "name": "0",
+    "label": "学期选择(课程成绩明细)",
+    "children": [
+      {
+        "name": "0_0",
+        "label": "2015-2016第一学期",
+        "url":"collegeCount.form",
+        "type": 1,
+        "data": { },
+        "settings": {
+          "type": "histogram",
+           "label": {
+           "normal": { 
+            "show": true, 
+            "position": "top" 
+            
+          }
+        }
+        },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+        }
+      },
+      {
+        "name": "0_1",
+        "label": "2015-2016第二学期",
+        "url":"studentInCount.form",
+        "type": 2,
+        "data": { },
+        "settings": {
+            "type": "map",
+             "position": "china"
+              },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+        }
+      },
+      {
+        "name": "0_2",
+        "label": "2016-2017第一学期",
+        "url":"sexCount.form",
+        "type": 1,
+        "data": { },
+        "settings": {
+          "type": "pie"
+          },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+
+        }
+      },
+      {
+        "name": "0_3",
+        "label": "2016-2017第二学期",
+        "url":"nationCount.form",
+        "type": 1,
+        "data": { },
+        "settings": {
+          "type": "line"
+        },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "1",
+    "label": "绩点查询",
+    "children": [
+      {
+        "name": "1_0",
+        "label": "2015-2016第一学期",
+        "url":"employStatusCount.form",
+        "type": 1,
+        "data": {},
+        "settings": {
+          "type": "bar",
+           "label": {
+           "normal": { 
+            "show": true, 
+            "position": "right" 
+            
+          }
+        }
+        },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+        }
+      },
+      {
+        "name": "1_1",
+        "label": "2015-2016第二学期",
+        "url":"jobPosition.form",
+        "type": 1,
+        "data": {},
+        "settings": {
+          "type": "pie"     
+        },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+
+        }
+      },
+      {
+        "name": "1_2",
+        "label": "2016-2017第一学期",
+        "url":"jobPosition.form",
+        "type": 1,
+        "data": {},
+        "settings": {
+          "type": "pie"     
+        },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+
+        }
+      },
+      {
+        "name": "1_3",
+        "label": "2016-2017第二学期",
+        "url":"jobPosition.form",
+        "type": 1,
+        "data": {},
+        "settings": {
+          "type": "pie"     
+        },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+
+        }
+      },
+      {
+        "name": "1_4",
+        "label": "2017-2018第一学期",
+        "url":"jobPosition.form",
+        "type": 1,
+        "data": {},
+        "settings": {
+          "type": "pie"     
+        },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+
+        }
+      },
+      {
+        "name": "1_5",
+        "label": "2017-2018第二学期",
+        "url":"jobPosition.form",
+        "type": 1,
+        "data": {},
+        "settings": {
+          "type": "pie"     
+        },
+        "toolbox": {
+          "feature": {
+            "saveAsImage": {}
+          }
+
+        }
+      }
+    ]
+  }
+]
